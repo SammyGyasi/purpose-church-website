@@ -5,20 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c5531486fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="images/capture.PNG" type="image/x-icon" />
     <title>Purpose Church</title>
   </head>
   <body>
     <section class="header">
       <div class="navbar">
-        <img src="images/Logo blanc.jpg" alt="" id="logo" />
+        <a href="index.html"
+          ><img src="images/capture.PNG" alt="" id="logo"
+        /></a>
+
         <nav>
-          <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">BRANCHES</a></li>
-            <li><a href="">CONTACT</a></li>
-          </ul>
+          <div class="nav-link" id="mobile-menu">
+            <i class="fab fa-xing-square" onclick="closeMobileMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about-us.html">ABOUT</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+              <li><a href="branches.html">BRANCHES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fas fa-bars" onclick="openMobileMenu()"></i>
         </nav>
       </div>
       <div class="header-text">
@@ -32,6 +50,142 @@
         <a href="" class="header-btn">Visit Us</a>
       </div>
     </section>
+
+    <!----Messages Section-->
+    <section class="messages">
+      <div class="section-header">
+        <h1>Messages</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="row col-shadow">
+        <div class="message-colleft">
+          <img src="/images/hommes.jpg" alt="" />
+        </div>
+        <div class="message-colright">
+          <h2>MADE IN HIS IMAGE</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            voluptates, natus quae tempora dolorem ipsam alias quod officia quia
+            ipsum dolore maiores, omnis cumque nihil voluptatem mollitia sequi
+            et? Exercitationem harum voluptatem est dolore cum tempore quis
+            cupiditate quas, nulla sed nemo natus ipsam, doloremque nam, unde ab
+            voluptates! Repudiandae in ipsam molestias perferendis a sint ea
+            distinctio iste accusantium?
+          </p>
+          <a href="" class="header-btn">Read More</a>
+        </div>
+      </div>
+
+      <div class="row col-shadow">
+        <div class="message-colleft">
+          <img src="/images/hommes.jpg" alt="" />
+        </div>
+        <div class="message-colright">
+          <h2>HOW I GOT ANOINTED</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            voluptates, natus quae tempora dolorem ipsam alias quod officia quia
+            ipsum dolore maiores, omnis cumque nihil voluptatem mollitia sequi
+            et? Exercitationem harum voluptatem est dolore cum tempore quis
+            cupiditate quas, nulla sed nemo natus ipsam, doloremque nam, unde ab
+            voluptates! Repudiandae in ipsam molestias perferendis a sint ea
+            distinctio iste accusantium?
+          </p>
+          <a href="" class="header-btn">Read More</a>
+        </div>
+      </div>
+
+      <div class="row col-shadow">
+        <div class="message-colleft">
+          <img src="/images/hommes.jpg" alt="" />
+        </div>
+        <div class="message-colright">
+          <h2>THE POWER OF PLANNING</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            voluptates, natus quae tempora dolorem ipsam alias quod officia quia
+            ipsum dolore maiores, omnis cumque nihil voluptatem mollitia sequi
+            et? Exercitationem harum voluptatem est dolore cum tempore quis
+            cupiditate quas, nulla sed nemo natus ipsam, doloremque nam, unde ab
+            voluptates! Repudiandae in ipsam molestias perferendis a sint ea
+            distinctio iste accusantium?
+          </p>
+          <a href="" class="header-btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Weekly Programmes-->
+    <section class="programmes">
+      <div class="section-header">
+        <h1>Weekly Activities</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat,
+          quas!
+        </p>
+      </div>
+      <div class="row">
+        <div class="programme-col">
+          <img src="/images/morning prayer.jpg" alt="" />
+          <div class="layer">
+            <h3>Monday Morning Prayers</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              cupiditate aliquam perspiciatis, quia adipisci accusantium eaque.
+            </p>
+          </div>
+        </div>
+
+        <div class="programme-col">
+          <img src="/images/wednesday prayers.jpg" alt="" />
+          <div class="layer">
+            <h3>Wednesday Prayers</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              cupiditate aliquam perspiciatis, quia adipisci accusantium eaque.
+            </p>
+          </div>
+        </div>
+
+        <div class="programme-col">
+          <img src="/images/sunday service.jpg" alt="" />
+          <div class="layer">
+            <h3>Sunday Service</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              cupiditate aliquam perspiciatis, quia adipisci accusantium eaque.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----Verset Of the Day Section-->
+    <section class="VoD">
+      <div class="section-header">
+        <h1>Verset Of The Day</h1>
+        <div id="dailyVersesWrapper"></div>
+        <script
+          async
+          defer
+          src="https://dailyverses.net/get/verse.js?language=nlt"
+        ></script>
+      </div>
+    </section>
+
+    <!----Footer-->
+    <section class="footer col-shadow">
+      <div class="row-footer">
+        <a href="about-us.html">About</a>
+        <a href="donate.html">Donate</a>
+        <a href="">Find Us</a>
+      </div>
+      <span>&copy;Designed by <a href="">Sam</a> </span>
+    </section>
+
     <script src="index.js"></script>
   </body>
 </html>
