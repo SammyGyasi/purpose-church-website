@@ -337,7 +337,7 @@ nav .fas ,nav .fab
     
 }
 
-.about-container{
+.subpage-container{
     background-image: linear-gradient(to right,
     rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.45));
     height: fit-content;
@@ -350,11 +350,29 @@ nav .fas ,nav .fab
     color: #fff;
     text-align: center;
     display: flex;
+    justify-content: space-between;
+    gap: 10px;
     padding-top: 60px;
     padding-bottom: 60px;
+    flex-basis: 48%;
 }
 
 .about-content img{
-    width: 50%;
+    width: 40%;
     border-radius: 15px;
+}
+.about-content h2{
+    font-size: 3.5rem;
+    padding-bottom: 25px;
+}
+
+.about-content p{
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+/*------Contact Page-----*/
+iframe{
+    width: 100%;
+    
 }
